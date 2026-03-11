@@ -1,0 +1,14 @@
+{
+  "manifest_version": 3,
+  "name": "Extension Blocker",
+  "version": "1.0",
+  "description": "Bloque et désactive des extensions Chrome par leur ID",
+  "permissions": ["management", "storage"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Extension Blocker"
+  }
+}
